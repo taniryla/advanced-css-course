@@ -5,4 +5,33 @@ Light green: #7ed56f
 Medium green: #55c57a
 Dark green: #28b485
 
+Blackish: #0D0F14
+Tan Hue: #B58D5B
+Turquoise: #148980
+Grey: #6D6E71
+
 */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Lato", sans-serif;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.7;
+    color: #777;
+    padding: 30px;
+}
+
+header {
+    height: 95vh;
+    background-image: linear-gradient(to right bottom, #0d0f141b, #6d6e7123), url(https://i.imgur.com/VkT2EOA.jpg);
+    background-size: cover;
+    /* will always fit the element in the box */
+    background-position: top;
+    clip-path: polygon(0 1%, 100% 0, 100% 100%, 0 75%);
+}
